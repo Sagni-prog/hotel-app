@@ -15,3 +15,4 @@
 
 - Login or signup
 - Language
+- Some problems
