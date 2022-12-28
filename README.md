@@ -5,7 +5,7 @@
 - Photos(gallery)
 - Foods
 - Rooms
-- Blog (Events like happy hour, discount on Holidays...)
+- Blog (happy hour, discount on Holidays...)
 - Testimonials
 - Contact
 
