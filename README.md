@@ -1,4 +1,4 @@
-# Components (Sections) 
+# Components (Sections)
 
 - Home
 - About
@@ -11,5 +11,5 @@
 
 # Navigation will also include:
 
-- Login or signup
+- Login or signup Button
 - Language
