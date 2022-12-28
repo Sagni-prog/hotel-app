@@ -3,6 +3,7 @@
 - Home
 - About
 - Photos(gallery)
+- Video
 - Foods
 - Rooms
 - Blog (Events like happy hour, discount on Holidays...)
@@ -13,3 +14,4 @@
 
 - Login or signup
 - Language
+
