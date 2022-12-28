@@ -1,4 +1,4 @@
-# Components (Sections) demo
+# Components (Sections) 
 
 - Home
 - About
