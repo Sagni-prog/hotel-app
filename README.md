@@ -1,13 +1,15 @@
-# Components (Sections) 
+# Components (Sections)
 
 - Home
 - About
 - Photos(gallery)
-- Foods
-- Rooms
+- Foods with order feature
+- Rooms with booking feature
 - Blog (Events like happy hour, discount on Holidays...)
 - Testimonials
 - Contact
+
+- Services(It may include foods + rooms)
 
 # Navigation will also include:
 
