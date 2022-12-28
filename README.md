@@ -7,7 +7,7 @@
 - Rooms
 - Blog (happy hour, discount on Holidays)
 - Testimonials
-- Contact
+- Contact info
 
 # Navigation will also include:
 
