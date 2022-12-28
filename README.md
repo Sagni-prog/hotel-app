@@ -3,8 +3,8 @@
 - Home
 - About
 - Photos(gallery)
-- Foods with order feature
-- Rooms with booking feature
+- Foods + order feature
+- Rooms + booking feature
 - Blog (Events like happy hour, discount on Holidays...)
 - Testimonials
 - Contact
@@ -15,3 +15,5 @@
 
 - Login or signup
 - Language
+
+- Feel free to edit
