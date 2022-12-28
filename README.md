@@ -16,7 +16,7 @@
 - Blog (happy hour, discount on Holidays)
 >>>>>>> neth
 - Testimonials
-- Contact
+- Contact info
 
 - Services(It may include foods + rooms)
 
