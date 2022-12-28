@@ -13,8 +13,3 @@
 
 - Login or signup
 - Language
-<<<<<<< HEAD
-=======
-- after mechohh I added this
-- finally i am able to pull
->>>>>>> 195d369 (pull it self)
