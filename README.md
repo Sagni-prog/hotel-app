@@ -13,4 +13,3 @@
 
 - Login or signup
 - Language
-- after mechohh I added this
