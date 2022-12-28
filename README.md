@@ -3,9 +3,14 @@
 - Home
 - About
 - Photos(gallery)
+  <<<<<<< HEAD
 - Foods + order feature
 - Rooms + booking feature
-- Blog (Events happy hour, discount on Holidays...)
+- # Blog (Events happy hour, discount on Holidays...)
+- Foods
+- Rooms
+- Blog (happy hour, discount on holiday...)
+  > > > > > > > neth
 - Testimonials
 - Contact
 
@@ -13,7 +18,7 @@
 
 # Navigation will also include:
 
-- Login or signup
+- Login or signup Button
 - Language
   <<<<<<< HEAD
 
