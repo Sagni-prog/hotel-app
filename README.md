@@ -16,3 +16,5 @@
 - Login or signup
 - Language
 - Some problems
+- some issues
+
