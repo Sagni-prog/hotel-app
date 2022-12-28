@@ -15,6 +15,10 @@
 
 - Login or signup
 - Language
+<<<<<<< HEAD
 - Some problems
 - some issues
 
+=======
+-
+>>>>>>> for7
