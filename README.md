@@ -9,8 +9,12 @@
 - # Blog (Events happy hour, discount on Holidays...)
 - Foods
 - Rooms
+<<<<<<< HEAD
 - Blog (happy hour, discount on holiday...)
   > > > > > > > neth
+=======
+- Blog (happy hour, discount on Holidays)
+>>>>>>> neth
 - Testimonials
 - Contact
 
