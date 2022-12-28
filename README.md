@@ -11,6 +11,5 @@
 
 # Navigation will also include:
 
-- Login/signup
+- Login or signup
 - Language
-- here is the added now
