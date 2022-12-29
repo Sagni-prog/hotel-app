@@ -2,19 +2,19 @@
 
 - Home
 - About
-- Photos(gallery)
+- Photos (gallery)
 
 - Foods + order feature
 - Rooms + booking feature
-- Blog (Events happy hour, discount on Holidays...)
+- Blog (Events like happy hour, discount on Holidays...)
 - Foods
 - Rooms
 - Testimonials
 - Contact info
 
-- Services(Include foods + rooms)
+- Services (Include foods + rooms)
 
-# Navigation will also include:
+# Navigation will also include : 
 
 - Login or signup Button
 - Language(en, amh, or)
