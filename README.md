@@ -6,7 +6,7 @@
 
 - Foods + order feature
 - Rooms + booking feature
-- # Blog (Events happy hour, discount on Holidays...)
+- Blog (Events happy hour, discount on Holidays...)
 - Foods
 - Rooms
 - Testimonials
