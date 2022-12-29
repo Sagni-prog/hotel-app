@@ -17,13 +17,5 @@
 # Navigation will also include:
 
 - Login or signup Button
-- Language
-
-- Some problems
-- some issues
-
-
-- # Feel free to edit
-- Some problems
-- some issues
+- Language(en, amh, or)
 
