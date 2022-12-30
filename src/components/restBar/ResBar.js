@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from './restBar.module.css'
+import styles from './restBar.css'
 // import styles from './restBar.module.css'
  
 const ResBar = () => {
   return (
-    <div className={`${styles.color} ${styles.font}`}>
+    <div className="restBar__color restBar__font">
          ResBar
     </div>
   )
