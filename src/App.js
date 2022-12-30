@@ -1,6 +1,6 @@
 
 import './App.css';
-import ResBar from './components/restBar/ResBar';
+import RestBar from './components/restBar/RestBar';
 import Hero from './components/hero/Hero';
 import Nav from './components/nav/Nav';
 import Room from './components/rooms/Room';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
         <Nav />
         <Hero />
-        <ResBar />
+        <RestBar />
         <Room />
         <Footer />
     </div>

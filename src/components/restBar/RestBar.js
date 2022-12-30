@@ -1,7 +1,7 @@
 import React from 'react'
 import  './restBar.css'
  
-const ResBar = () => {
+const RestBar = () => {
   return (
     <div className="restBar__color resBar__font">
          ResBar
@@ -9,4 +9,4 @@ const ResBar = () => {
   )
 }
 
-export default ResBar
+export default RestBar
