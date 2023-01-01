@@ -82,7 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 8. Footer
 
 # Optional
-- Notify button (Modal)
+- Notify button (Modal) with notification popup
 
 
 
