@@ -23,3 +23,22 @@
     background-color: inherit;
     color: inherit;
 }
+
+        /* About Footer section  */
+.about--footer-social-medias{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.li-social-medias{
+    list-style: none;
+
+    /* display: none; */
+}
+.about--footer-social-medias ul li a span{
+    text-decoration: none;
+    color: #fff;
+    list-style: none;
+}
