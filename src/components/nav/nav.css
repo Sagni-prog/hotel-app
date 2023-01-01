@@ -1,0 +1,10 @@
+.nav__color{
+    color: #eca408e8;
+    background-color: rgb(46, 44, 44);
+    padding: 20px;
+}
+
+.nav__font{
+    font-family: sans-serif;
+    font-size: 32px;
+}
