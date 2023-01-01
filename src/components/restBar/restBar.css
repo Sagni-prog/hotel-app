@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+.restBar {
+  padding: 5% 0px;
+  margin: 3% 1%;
+  width: 100%;
+  background-color: #f8fafc;
+}
 .restBar__header {
 }
 
@@ -68,13 +73,15 @@
   height: auto;
   display: flex;
   flex-flow: column;
+  padding: 10px 0px;
 }
+
 .main__right .main__right__content {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   gap: 10px;
-  overflow-y: scroll;
+  overflow-y: hidden;
   height: auto;
 }
 .restBar__card {
@@ -211,15 +218,3 @@
     transform: scale(0.6);
   }
 }
-=======
-.restBar__color{
-    color: #eca408e8;
-    background-color: rgb(46, 44, 44);
-    padding: 20px;
-}
-
-.resBar__font{
-    font-family: sans-serif;
-    font-size: 32px;
-}
->>>>>>> 090559ce027f95b7e80808d861fb64d0584bcbcd
