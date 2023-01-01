@@ -21,7 +21,16 @@
 }
 
 
+.service__flex{
+    display: flex;
+}
+.service__align__center{
+    align-items: center;
+}
 
+.service__justify__center{
+    align-items: center;
+}
 .service__grid{
     display: grid;
 }
