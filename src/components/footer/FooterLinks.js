@@ -5,7 +5,7 @@ import {FaChevronRight} from 'react-icons/fa'
 const links = ["Home", "About", "Rooms", "Resto & Bar"];
 const data = links.map((link) => {
   return (
-    <li>
+    <li className="nav--child-links">
     <FaChevronRight />
       <a href="#"> {link}</a>
     </li>
