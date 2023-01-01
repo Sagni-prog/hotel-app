@@ -27,7 +27,9 @@
 
         /* About Footer section  */
 .about--footer{
-    font-size: 62.5%;
+    /* font-size: 62.5%; */
+    background-color: aqua;
+    width: 240px;
 }
 .about--footer-social-medias{
     display: flex;
@@ -45,4 +47,19 @@
     text-decoration: none;
     color: #fff;
     list-style: none;
+}
+
+
+/* Services */
+
+.service--footer{
+    background-color: red;
+}
+
+.links--footer{
+    background-color: green;
+}
+
+.location{
+    background-color: aquamarine;
 }

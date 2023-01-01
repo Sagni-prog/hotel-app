@@ -12,7 +12,7 @@ const data = links.map((link) => {
 function FooterLinks() {
   
   return (
-    <div>
+    <div className="links--footer">
       <h1>FooterLinks</h1>
       <ul>{data}</ul>
     </div>
