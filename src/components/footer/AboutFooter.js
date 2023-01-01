@@ -1,4 +1,8 @@
 import React from 'react'
+import {FaTwitter} from 'react-icons/fa'
+import {FaFacebook} from 'react-icons/fa'
+import {FaInstagram} from 'react-icons/fa'
+
 
 function AboutFooter() {
   return (
@@ -7,13 +11,18 @@ function AboutFooter() {
         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
         <ul className='about--footer-social-medias'>
             <li className='li-social-medias'>
-                <a href="#">
-                    <span>twitter</span>
+                <a href="#" className='fa--icons'>
+                    <FaTwitter />
                 </a>
             </li>
             <li className='li-social-medias'>
                 <a href="#">
-                    <span>twitter</span>
+                    <FaFacebook />
+                </a>
+            </li>
+            <li className='li-social-medias'>
+                <a href="#">
+                    <FaInstagram />
                 </a>
             </li>
            

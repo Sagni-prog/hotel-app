@@ -1,3 +1,13 @@
+/* 
+    Author: Robera Insarmu
+    Github: https://github.com/rinsarmu
+    Skills: HTML, CSS, JS, React, Java, C++, 
+    Academical status: ungraduated Software Engineering
+    Year: Dec 31, 2022
+    Location, Jimma, Ethiopia
+
+*/
+
 .footer{
     color: #ffffb3;
     padding: 20px;
@@ -72,6 +82,15 @@
 .service--footer{
     background-color: red;
 }
+
+.amenities--container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+
+}
+
+/* End of services */
 
 .links--footer{
     background-color: green;
