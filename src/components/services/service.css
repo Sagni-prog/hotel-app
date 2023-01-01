@@ -19,6 +19,12 @@
 .service__bg__gray{
     background-color: #333;
 }
+.service__bg__red{
+    background-color: red;
+}
+.service__bg__green{
+    background-color: green;
+}
 
 
 .service__flex{
@@ -37,3 +43,18 @@
 .service__grid__col__3{
     grid-template-columns: repeat(3, 1fr);
 }
+
+.service__card{
+    /* width: 28%; */
+    height: auto;
+    border: #898989 solid 1px;
+    transition: all .5s;
+}
+
+.service__card:hover{
+    border: #c5a880 solid 1px;
+}
+
+/* .service__border{
+    border: #898989 solid 1px;
+} */

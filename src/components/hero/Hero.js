@@ -1,8 +1,8 @@
 import React from "react";
 import "./hero.css";
-import Images from "../../constants/images";
+// import Images from "../../constants/Images";
 
-const { restBar } = Images;
+// const { restBar } = Images;
 
 const Hero = () => {
   return (

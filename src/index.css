@@ -1,4 +1,8 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); 
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap'); 
+
+/* Relway */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway&display=swap');
 *, *::after, *::before{
   padding: 0;
   margin: 0;
@@ -12,6 +16,7 @@ html, body{
 body {
 
   margin: 0;
+  background-color: #f8fafc;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -54,6 +59,9 @@ html{
 .font-52{
   font-size: 5.2rem;
 }
+.font-64{
+  font-size: 6.4rem;
+}
 
 .font-sans{
   font-family: sans-serif;
@@ -62,11 +70,81 @@ html{
   font-family: Montserrat ,sans-serif;
 }
 
+.font-relway{
+  font-family: Relway sans-serif;
+}
+
 .text-uppercase{
   text-transform: uppercase !important;
 }
 
+.line-height{
+  line-height: 1.5;
+}
 
+
+/* width and heigh */
+
+.w-100{
+  width: 100%;
+}
+.w-80{
+   width: 80%;
+}
+.w-70{
+   width: 70%;
+}
+.w-60{
+   width: 60%;
+}
+.w-50{
+   width: 50%;
+}
+.w-40{
+   width: 40rem;
+}
+.w-3{
+   width: 3.5rem;
+}
+.h-3-1{
+   height: 3.5rem;
+}
+.w-4{
+   width: 4rem;
+}
+.h-100vh{
+   height: 100vh;
+}
+.h-100{
+  height: 100%;
+}
+.h-10{
+   height: 10rem;
+}
+.h-9{
+   height: 9rem;
+}
+.h-8{
+   height: 8rem;
+}
+.h-7{
+   height: 7rem;
+}
+.h-6{
+   height: 6rem;
+}
+.h-5{
+   height: 5rem;
+}
+.h-4{
+   height: 4rem;
+}
+.h-3{
+   height: 3rem;
+}
+.h-3-5{
+   height: 3.5rem;
+}
 
 
 
@@ -390,7 +468,7 @@ padding-right: 4rem;
 .flex-wrap{
   flex-wrap: wrap;
 }
-.justfy-center{
+.justify-center{
   justify-content: center;
 }
 .justify-between{
