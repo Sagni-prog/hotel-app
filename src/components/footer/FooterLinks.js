@@ -10,9 +10,9 @@ const data = links.map((link) => {
   );
 });
 function FooterLinks() {
-  return null;
+  
   return (
-    <div>
+    <div className="links--footer">
       <h1>FooterLinks</h1>
       <ul>{data}</ul>
     </div>

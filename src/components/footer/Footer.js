@@ -4,7 +4,7 @@ import FooterContainer from './FooterContainer'
 
 const Footer = () => {
   return (
-    <div className='footer__color footer__font'>
+    <div className='footer__color footer'>
         <FooterContainer />
     </div>
   )
