@@ -1,10 +1,25 @@
 .footer__color{
-    color: #eca408e8;
-    background-color: rgb(46, 44, 44);
+    color: #ffffb3;
     padding: 20px;
+    margin-top: 2rem;
+    background-color: #1a1a1a
 }
 
 .footer__font{
     font-family: sans-serif;
     font-size: 32px;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer--container{
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    color: inherit;
 }
