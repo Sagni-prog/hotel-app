@@ -4,7 +4,7 @@ import images from "../../constants/Images";
 
 const { blackLable, burger, restBar, cake } = images;
 
-const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const foods = [0, 1, 2, 3, 4, 5, 6, 7];
 const Header = (props) => {
   return (
     <div className="header restBar__header">
