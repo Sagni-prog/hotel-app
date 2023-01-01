@@ -1,4 +1,8 @@
 import React from 'react'
+import AboutFooter from './AboutFooter'
+import FooterLinks from './FooterLinks'
+import Location from './Location'
+import ServiceFooter from './ServiceFooter'
 
 function FooterContainer() {
   return (
