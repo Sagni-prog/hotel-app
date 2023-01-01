@@ -2,7 +2,7 @@ import React from "react";
 import "./restBar.css";
 import images from "../../constants/Images";
 
-const { blackLable, burger, restBar } = images;
+const { blackLable, burger, restBar, cake } = images;
 
 const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const Header = (props) => {
@@ -21,7 +21,7 @@ const RestCard = (props) => {
       }`}>
       <p className="card__image">
         <img
-          src={burger}
+          src={cake}
           alt=""
         />
       </p>
@@ -67,14 +67,18 @@ const Content = (props) => {
             className={`link restBar__link  ${
               props.slide == 1 ? "current__link" : ""
             }`}
-            onClick={props.select}>
+            onClick={() => {
+              props.select(1);
+            }}>
             restuarant
           </button>
           <button
             className={`link restBar__link  ${
               props.slide == 2 ? "current__link" : ""
             }`}
-            onClick={props.select}>
+            onClick={() => {
+              props.select(2);
+            }}>
             bars
           </button>
         </div>
@@ -105,10 +109,8 @@ export default class RestBar extends React.Component {
     this.select = this.select.bind(this);
   }
   select(slide) {
-    this.setState((prevState) => {
-      if (prevState.slide == 1) return { slide: 2, choosed: true };
-      if (prevState.slide == 2) return { slide: 1, choosed: true };
-    });
+    if (slide == this.state.slide) return;
+    this.setState((prevState) => ({ slide: slide, choosed: true }));
   }
 
   render() {
