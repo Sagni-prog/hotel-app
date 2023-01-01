@@ -7,7 +7,7 @@ const { restBar } = Images
 const Hero = () => {
   return (
     <div className='hero__font hero__color'>
-        <img src = { restBar } alt = "" />
+        <img src = { restBar } alt = "hello" />
     </div>
   )
 }
