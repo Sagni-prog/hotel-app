@@ -1,5 +1,8 @@
 import React from "react";
 import "./restBar.css";
+import images from '../../constants/Images'
+
+const {cake ,vodka, resBar } = images;
 
 const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const Header = (props) => {
@@ -17,7 +20,8 @@ const RestCard = (props) => {
         props.choosed ? "slide--right" : "slide--up"
       }`}>
       <p className="card__image">
-        <img src={require("./assets/images/cake.jpg")} />
+        {/* <img src={require("./assets/images/cake.jpg")} /> */}
+        <img src = {cake} alt = "" />
       </p>
       <p className="card__content">
         {props.index < 5 ? " grilled beef with potatoes" : " grilled beef "}
@@ -33,7 +37,8 @@ const BarCard = (props) => {
         slide--left 
       `}>
       <p className="card__image">
-        <img src={require("./assets/images/vodka.jpg")} />
+        {/* <img src={require("./assets/images/vodka.jpg")} /> */}
+        <img src = {vodka} alt = "" />
       </p>
       <p className="card__content">
         {props.index < 5 ? " black label  " : " vokda "}
@@ -47,7 +52,8 @@ const Content = (props) => {
   return (
     <div className="restBar__main">
       <div className="main__left">
-        <img src={require("./assets/images/restBar.jpg")} />
+        {/* <img src={require("./assets/images/restBar.jpg")} /> */}
+        <img src = {resBar} alt = '' />
       </div>
       <div className="main__right">
         <div className="restBar__menus">
