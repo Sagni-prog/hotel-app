@@ -16,13 +16,9 @@ function ServiceFooter() {
   return (
     <div className='service--footer'>
         <h1>Services</h1>
-        <p>{data.amenties.data1[0]}</p>
-        <div>
-
+        <div className='amenities--container'>
         <AmenitiesOne dataOne= {data.amenties.data1} />
         <AmenitiesTwo dataTwo ={data.amenties.data1}  />
-        {/* <AmenitiesOne data = {data1} />
-        <AmenitiesTwo data ={data2} /> */}
         </div>
         
     </div>

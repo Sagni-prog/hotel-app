@@ -20,7 +20,7 @@
     flex-direction: row;
     column-gap: 2rem;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: inherit;
     color: inherit;
 }
@@ -28,9 +28,24 @@
         /* About Footer section  */
 .about--footer{
     /* font-size: 62.5%; */
-    background-color: aqua;
-    width: 240px;
+    background-color: rgb(26, 18, 122);
+    width: 400px;
 }
+
+.hotel--name{
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.about--footer p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
 .about--footer-social-medias{
     display: flex;
     align-items: center;
@@ -50,6 +65,8 @@
 }
 
 
+
+
 /* Services */
 
 .service--footer{
@@ -63,3 +80,4 @@
 .location{
     background-color: aquamarine;
 }
+
