@@ -18,7 +18,36 @@
 
 .footer li{
     list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+
 }
+
+.footer li:hover{
+    color: #c5a880;
+}
+
+
+
+.footer a{
+    /* color: rgba(255, 255, 255, 0.7); */
+    color: rgba(255, 255, 255, 0.5);
+
+    text-decoration: none;
+    padding: 8px;
+}
+
+.footer a:hover{
+    color: #c5a880;
+
+
+}
+
+.footer h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
 
 .footer__font{
     font-family: sans-serif;
@@ -42,7 +71,7 @@
         /* About Footer section  */
 .about--footer{
     /* font-size: 62.5%; */
-    background-color: rgb(26, 18, 122);
+    /* background-color: rgb(26, 18, 122); */
     width: 400px;
 }
 
@@ -56,6 +85,8 @@
 .about--footer p{
     font-size: 16px;
     line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+
 }
 
 
@@ -69,13 +100,26 @@
 
 .li-social-medias{
     list-style: none;
+    /* background-color: #454444; */
+    padding: 12px 8px;
+    /* background-color: #313131;
+     */
+    background-color: #252424;
+    margin: 3px;
+    border-radius: 3px;
+
 
     /* display: none; */
+}
+.about--footer-social-medias{
+    margin-top: 1.5rem;
+    justify-content: flex-start;
 }
 .about--footer-social-medias ul li a span{
     text-decoration: none;
     color: #fff;
     list-style: none;
+    /* margin-top: 15px; */
 }
 
 
@@ -84,7 +128,7 @@
 /* Services */
 
 .service--footer{
-    background-color: red;
+    /* background-color: red; */
     width: 450px;
     line-height: 28px;
 }
@@ -92,8 +136,12 @@
 .amenities--container{
     display: flex;
     flex-direction: row;
-    column-gap: 1rem;
+    column-gap: 1.5rem;
 
+}
+
+.amenities--li{
+    padding-top: 5px;
 }
 
 /* End of services */
@@ -104,5 +152,49 @@
 
 .location{
     background-color: aquamarine;
+}
+
+
+/* Responsiveness */
+
+
+@media screen and (max-width: 960px) {
+    
+    .footer--container{
+        flex-direction: column;
+        row-gap: 2rem ;
+    }
+    .footer, .about--footer p{
+        font-size: 20px;
+    }
+
+    .about--footer{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .footer--container{
+        flex-direction: column;
+        row-gap: 2rem ;
+    }
+    .footer, .about--footer p{
+        font-size: 20px;
+    }
+
+    .about--footer{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    
+    .amenities--container{
+        flex-direction: column;
+        row-gap: 1.5rem ;
+    }
 }
 
