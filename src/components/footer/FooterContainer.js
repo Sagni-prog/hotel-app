@@ -6,7 +6,12 @@ import ServiceFooter from './ServiceFooter'
 
 function FooterContainer() {
   return (
-    <div className='footer--container'>footerContainer</div>
+    <div className='footer--container'>
+      <AboutFooter />
+      <ServiceFooter />
+      <FooterLinks />
+      <Location />
+    </div>
   )
 }
 

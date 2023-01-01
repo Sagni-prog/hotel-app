@@ -1,8 +1,14 @@
 import React from 'react'
+import AmenitiesOne from './AmenitiesOne'
+import AmenitiesTwo from './AmenitiesTwo'
+
 
 function ServiceFooter() {
   return (
-    <div>ServiceFooter</div>
+    <div className='service--footer'>
+        <AmenitiesOne />
+        <AmenitiesTwo />
+    </div>
   )
 }
 
