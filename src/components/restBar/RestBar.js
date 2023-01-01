@@ -1,10 +1,11 @@
 import React from "react";
 import "./restBar.css";
-import images from "../../constants/Images";
+import images from "../../constants/images";
 
 const { blackLable, burger, restBar, cake } = images;
 
-const foods = [0, 1, 2, 3, 4, 5, 6, 7];
+const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
 const Header = (props) => {
   return (
     <div className="header restBar__header">
@@ -51,7 +52,6 @@ const BarCard = (props) => {
     </div>
   );
 };
-
 const Content = (props) => {
   return (
     <div className="restBar__main">

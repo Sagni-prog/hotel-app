@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+# Getting Started 
 
 <<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,24 +71,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-- Home
-- About
-- Photos (gallery)
+# Components
+1. Navbar
+2. Hero
+3. Rooms
+4. Resto & Bars
+5. Services 
+6. Testimonials
+7. Contact
+8. Footer
 
-- Foods + order feature
-- Rooms + booking feature
-- Blog (Events like happy hour, discount on Holidays...)
-- Foods
-- Rooms
-- Testimonials
-- Contact info
+# Optional
+- Notify button (Modal)
 
-- Services (Include foods + rooms)
 
-# Navigation will also include : 
-
-- Login or signup Button
-- Language(en, amh, or)
 
 >>>>>>> 0e44c569d6b0818b2715e752b957220eb45e8fbc
 

@@ -189,7 +189,7 @@
     margin-bottom: 7%;
   }
   .restBar__card {
-    flex-basis: 45%;
+    flex-basis: 49%;
     height: 150px;
   }
 }
@@ -218,6 +218,6 @@
   }
   .restBar__card .card__image {
     height: auto;
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
 }
