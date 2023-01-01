@@ -8,3 +8,23 @@
     font-family: sans-serif;
     font-size: 32px;
 }
+
+.service__color__light__gray{
+    color: #898989;
+}
+.service__color__golden{
+    color: #c5a880;
+}
+
+.service__bg__gray{
+    background-color: #333;
+}
+
+
+
+.service__grid{
+    display: grid;
+}
+.service__grid__col__3{
+    grid-template-columns: repeat(3, 1fr);
+}
