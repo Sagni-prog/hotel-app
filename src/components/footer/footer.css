@@ -16,6 +16,10 @@
     padding: 2rem;
 }
 
+.footer li{
+    list-style: none;
+}
+
 .footer__font{
     font-family: sans-serif;
     font-size: 32px;
@@ -81,6 +85,8 @@
 
 .service--footer{
     background-color: red;
+    width: 450px;
+    line-height: 28px;
 }
 
 .amenities--container{
