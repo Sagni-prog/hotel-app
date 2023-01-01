@@ -10,4 +10,3 @@ export default{
     burger,
     room_1
 }
-//
