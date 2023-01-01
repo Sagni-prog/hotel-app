@@ -1,9 +1,11 @@
 import React from 'react'
-import './nav.module.css'
+import './nav.css'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <div className='nav__color nav__font'>
+       Nav
+    </div>
   )
 }
 

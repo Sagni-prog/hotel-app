@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .restBar__header {
 }
 
@@ -210,3 +211,15 @@
     transform: scale(0.6);
   }
 }
+=======
+.restBar__color{
+    color: #eca408e8;
+    background-color: rgb(46, 44, 44);
+    padding: 20px;
+}
+
+.resBar__font{
+    font-family: sans-serif;
+    font-size: 32px;
+}
+>>>>>>> 090559ce027f95b7e80808d861fb64d0584bcbcd

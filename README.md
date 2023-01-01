@@ -90,3 +90,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - Language(en, amh, or)
 
 >>>>>>> 0e44c569d6b0818b2715e752b957220eb45e8fbc
+
