@@ -15,7 +15,7 @@ function FooterLinks() {
   
   return (
     <div className="links--footer">
-      <h1>FooterLinks</h1>
+      <h1>Quick Links</h1>
       <ul>{data}</ul>
     </div>
   );
