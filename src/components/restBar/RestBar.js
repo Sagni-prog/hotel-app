@@ -1,5 +1,8 @@
 import React from "react";
 import "./restBar.css";
+import images from "../../constants/Images";
+
+const { blackLable, burger, restBar, cake } = images;
 
 const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 const Header = (props) => {
@@ -17,7 +20,10 @@ const RestCard = (props) => {
         props.choosed ? "slide--right" : "slide--up"
       }`}>
       <p className="card__image">
-        <img src={require("./assets/images/cake.jpg")} />
+        <img
+          src={cake}
+          alt=""
+        />
       </p>
       <p className="card__content">
         {props.index < 5 ? " grilled beef with potatoes" : " grilled beef "}
@@ -33,7 +39,10 @@ const BarCard = (props) => {
         slide--left 
       `}>
       <p className="card__image">
-        <img src={require("./assets/images/vodka.jpg")} />
+        <img
+          src={blackLable}
+          alt=""
+        />
       </p>
       <p className="card__content">
         {props.index < 5 ? " black label  " : " vokda "}
@@ -47,7 +56,10 @@ const Content = (props) => {
   return (
     <div className="restBar__main">
       <div className="main__left">
-        <img src={require("./assets/images/restBar.jpg")} />
+        <img
+          src={restBar}
+          alt=""
+        />
       </div>
       <div className="main__right">
         <div className="restBar__menus">
@@ -55,14 +67,18 @@ const Content = (props) => {
             className={`link restBar__link  ${
               props.slide == 1 ? "current__link" : ""
             }`}
-            onClick={props.select}>
+            onClick={() => {
+              props.select(1);
+            }}>
             restuarant
           </button>
           <button
             className={`link restBar__link  ${
               props.slide == 2 ? "current__link" : ""
             }`}
-            onClick={props.select}>
+            onClick={() => {
+              props.select(2);
+            }}>
             bars
           </button>
         </div>
@@ -93,10 +109,8 @@ export default class RestBar extends React.Component {
     this.select = this.select.bind(this);
   }
   select(slide) {
-    this.setState((prevState) => {
-      if (prevState.slide == 1) return { slide: 2, choosed: true };
-      if (prevState.slide == 2) return { slide: 1, choosed: true };
-    });
+    if (slide == this.state.slide) return;
+    this.setState((prevState) => ({ slide: slide, choosed: true }));
   }
 
   render() {

@@ -1,8 +1,23 @@
-.footer__color{
+/* 
+    Author: Robera Insarmu
+    Github: https://github.com/rinsarmu
+    Skills: HTML, CSS, JS, React, Java, C++, 
+    Academical status: ungraduated Software Engineering
+    Year: Dec 31, 2022
+    Location, Jimma, Ethiopia
+
+*/
+
+.footer{
     color: #ffffb3;
     padding: 20px;
     margin-top: 2rem;
-    background-color: #1a1a1a
+    background-color: #1a1a1a;
+    padding: 2rem;
+}
+
+.footer li{
+    list-style: none;
 }
 
 .footer__font{
@@ -19,12 +34,32 @@
     flex-direction: row;
     column-gap: 2rem;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: inherit;
     color: inherit;
 }
 
         /* About Footer section  */
+.about--footer{
+    /* font-size: 62.5%; */
+    background-color: rgb(26, 18, 122);
+    width: 400px;
+}
+
+.hotel--name{
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.about--footer p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+
 .about--footer-social-medias{
     display: flex;
     align-items: center;
@@ -42,3 +77,32 @@
     color: #fff;
     list-style: none;
 }
+
+
+
+
+/* Services */
+
+.service--footer{
+    background-color: red;
+    width: 450px;
+    line-height: 28px;
+}
+
+.amenities--container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+
+}
+
+/* End of services */
+
+.links--footer{
+    background-color: green;
+}
+
+.location{
+    background-color: aquamarine;
+}
+

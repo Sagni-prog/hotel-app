@@ -3,6 +3,7 @@
   margin: 3% 1%;
   width: 100%;
   background-color: #f8fafc;
+  text-align: center;
 }
 .restBar__header {
 }
@@ -11,7 +12,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 14px;
-  line-height: 1.1em;
+  line-height: 1.5em;
   color: #c5a880;
 }
 
@@ -20,7 +21,7 @@
   letter-spacing: 2px;
   font-family: "Old Standard TT", serif;
   font-size: 44px;
-  line-height: 0.1em;
+  line-height: 1.5em;
   font-weight: 400;
 }
 .restBar__menus {
@@ -30,15 +31,19 @@
   margin-top: -10px;
   margin-bottom: 20px;
 }
-
+.link,
+.link:focus {
+  border: none;
+}
 .restBar__menus .link {
   text-decoration: none;
   text-transform: capitalize;
   color: #c5a880;
-  border: none;
   background-color: transparent;
   letter-spacing: 1px;
+  padding: 0px 10px 5px;
 }
+
 .restBar__menus .current__link {
   border-bottom: solid thin #c5a880;
 }
@@ -47,7 +52,7 @@
   margin: 50px 10px auto;
   padding: 5px;
   display: flex;
-  gap: 5%;
+  gap: 2%;
   justify-content: center;
 }
 
@@ -56,6 +61,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .restBar__main .main__left img {
   position: absolute;
@@ -63,17 +69,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
+  object-fit: cover;
 }
 .restBar__main .main__right {
   flex-basis: 60%;
-  height: auto;
   display: flex;
   flex-flow: column;
-  padding: 10px 0px;
 }
 
 .main__right .main__right__content {
@@ -82,24 +83,27 @@
   justify-content: center;
   gap: 10px;
   overflow-y: hidden;
-  height: auto;
+  border: solid thin rgba(255, 0, 0, 0.327);
+  padding: 10px;
+  border-radius: 2px;
 }
 .restBar__card {
-  flex-basis: 45%;
+  flex-basis: 49%;
   display: flex;
   min-height: 120px;
   justify-content: space-around;
   padding: 10px;
   background-color: white;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.113);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .restBar__card .card__image {
+  transform: scale(0.7);
   flex-basis: 27%;
   height: auto;
   position: relative;
   border-radius: 50%;
-  transform: scale(0.7);
+  object-fit: cover;
 }
 .restBar__card .card__image img {
   position: absolute;
@@ -114,10 +118,11 @@
 .restBar__card .card__content {
   align-self: center;
   flex-basis: 40%;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 400;
   text-align: left;
   text-transform: capitalize;
+  letter-spacing: 0.5px;
 }
 
 .restBar__card .card__price {
@@ -186,7 +191,7 @@
     margin-bottom: 7%;
   }
   .restBar__card {
-    flex-basis: 45%;
+    flex-basis: 49%;
     height: 150px;
   }
 }
@@ -215,6 +220,6 @@
   }
   .restBar__card .card__image {
     height: auto;
-    transform: scale(0.6);
+    transform: scale(0.5);
   }
 }

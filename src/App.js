@@ -1,4 +1,3 @@
-
 import "./App.css";
 import RestBar from "./components/restBar/RestBar";
 import Hero from "./components/hero/Hero";

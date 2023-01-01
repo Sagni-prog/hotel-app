@@ -1,10 +1,18 @@
 import React from 'react'
+import {FaChevronRight} from 'react-icons/fa'
 
 function AmenitiesTwo(props) {
-    console.log(props)
-  return (
-    <div>AmenitiesTwo</div>
-  )
+  console.log(props)
+  const data = props.dataTwo.map(dat=>{
+   return <li> <FaChevronRight /> <a href="#"> {dat}</a></li>
+  })
+return (
+  <div>
+    <ul>
+      {data}
+    </ul>
+  </div>
+)
 }
 
 export default AmenitiesTwo
