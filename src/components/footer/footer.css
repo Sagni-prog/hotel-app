@@ -1,8 +1,9 @@
-.footer__color{
+.footer{
     color: #ffffb3;
     padding: 20px;
     margin-top: 2rem;
-    background-color: #1a1a1a
+    background-color: #1a1a1a;
+    padding: 2rem;
 }
 
 .footer__font{
@@ -25,6 +26,9 @@
 }
 
         /* About Footer section  */
+.about--footer{
+    font-size: 62.5%;
+}
 .about--footer-social-medias{
     display: flex;
     align-items: center;

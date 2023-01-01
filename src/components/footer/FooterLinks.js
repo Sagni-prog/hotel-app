@@ -10,7 +10,7 @@ const data = links.map((link) => {
   );
 });
 function FooterLinks() {
-  return null;
+  
   return (
     <div>
       <h1>FooterLinks</h1>
