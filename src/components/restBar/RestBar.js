@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import "./restBar.css";
 import images from "../../constants/images";
 
@@ -68,7 +68,7 @@ const Content = (props) => {
               props.slide == 1 ? "current__link" : ""
             }`}
             onClick={() => {
-              props.select(1);
+              props.buttonClicked(1);
             }}>
             restuarant
           </button>
@@ -77,7 +77,7 @@ const Content = (props) => {
               props.slide == 2 ? "current__link" : ""
             }`}
             onClick={() => {
-              props.select(2);
+              props.buttonClicked(2);
             }}>
             bars
           </button>
@@ -102,27 +102,22 @@ const Content = (props) => {
   );
 };
 
-export default class RestBar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { slide: 1, choosed: false };
-    this.select = this.select.bind(this);
-  }
-  select(slide) {
-    if (slide == this.state.slide) return;
-    this.setState((prevState) => ({ slide: slide, choosed: true }));
-  }
+export default () => {
+  const [slide, setSlide] = useState(1);
+  const [choosed, setChoosed] = useState(false);
 
-  render() {
-    return (
-      <div className="restBar">
-        <Header />
-        <Content
-          select={this.select}
-          slide={this.state.slide}
-          choosed={this.state.choosed}
-        />
-      </div>
-    );
-  }
-}
+  const buttonClicked = (slide) => {
+    setSlide(slide);
+    setChoosed(true);
+  };
+  return (
+    <div className="restBar">
+      <Header />
+      <Content
+        slide={slide}
+        buttonClicked={buttonClicked}
+        choosed={choosed}
+      />
+    </div>
+  );
+};
