@@ -30,14 +30,15 @@
 .restBar__header {
 }
 
-<<<<<<< HEAD
     /* Cards start */
     .test--cards{
         display: flex;
         gap: 2rem;
         /* flex-wrap: wrap; */
     }
-=======
+
+/* Card end */
+
 .restBar__header .header__small {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -45,7 +46,7 @@
   line-height: 1.5em;
   color: #c5a880;
 }
->>>>>>> 69a5aa87180d4c470b2452f4c9c7111d875b1b77
+
 
 .restBar__header .header__large {
   text-transform: capitalize;
@@ -59,8 +60,26 @@
 /* Cards start */
 .test--cards {
   display: flex;
+  overflow-x: hidden;
   gap: 2rem;
-  /* flex-wrap: wrap; */
+}
+
+/* Cards end */
+/* Card start */
+.test--card {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+  animation: slideLeft 3s 1s infinite;
+}
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 /* Cards end */
@@ -73,6 +92,8 @@
 }
 
 /* Card end */
+
+/* Profile start */
 
 /* Profile start */
 
@@ -122,18 +143,15 @@
   font-size: 2.2rem;
 }
 
-<<<<<<< HEAD
     .role{
         font-size: 16px;
         color: #c5a880;
         text-transform: uppercase;
     }
-=======
 .role {
   font-size: 16px;
   color: #c5a880;
 }
->>>>>>> 69a5aa87180d4c470b2452f4c9c7111d875b1b77
 
 .quotes {
   margin-top: 2rem;
