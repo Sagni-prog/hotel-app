@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=PT+Serif&family=Raleway&display=swap");
 
 /**************************/
 /* GENERAL */
@@ -31,8 +31,7 @@ ul {
 /**************************/
 /* DESKTOP  */
 /**************************/
-
-/* HERO SECTION */
+/* HEADER */
 
 .hero__hero-container {
   width: 100%;
@@ -58,8 +57,6 @@ ul {
   align-items: center;
   justify-content: space-around;
 }
-.hero__logo {
-}
 
 .hero__logo {
   font-size: 2rem;
@@ -76,6 +73,48 @@ ul {
   font-family: "Montserrat", "Serif";
 }
 
+.hero__body {
+  margin-top: 20%;
+  text-align: center;
+}
+.hero__body-title-sub {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.hero__body-title-main {
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.hero__body-buttons-container {
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.2rem;
+}
+
+.hero__body-button {
+  margin-top: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+.hero__body-button-1 {
+  background-color: #c5a880;
+  border: 1px solid #c5a880;
+}
+.hero__body-button-2 {
+  border: 1px solid #fff;
+}
+.hero__body-button-2:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.2s ease-in;
+}
+
 /**************************/
 /* RESPONDING TO TABLET  */
 /**************************/
@@ -83,3 +122,13 @@ ul {
 /**************************/
 /* RESPONDING TO MOBILE  */
 /**************************/
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+.hero__logo {
+}
