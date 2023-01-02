@@ -8,10 +8,11 @@ const { room_1 } = images;
 const Room = () => {
   return (
     <div className="room__color room__font">
-      <img
+      {/* <img
         src={room_1}
-        alt=""
-      />
+        alt="" 
+
+      /> */}
     </div>
   );
 };
