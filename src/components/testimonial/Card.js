@@ -2,11 +2,12 @@ import React from 'react'
 import Profile from './Profile'
 import Quotes from './Quotes'
 
-function Card() {
+function Card(props) {
+  console.log(props.role);
   return (
     <div className='test--card'>
-      <Profile />
-      <Quotes />
+      <Profile guestName = {props.guestName} role= {props.role}  />
+      <Quotes comment = {props.comment} />
     </div>
   )
 }

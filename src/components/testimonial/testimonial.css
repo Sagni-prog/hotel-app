@@ -30,14 +30,6 @@
 .restBar__header {
 }
 
-    /* Cards start */
-    .test--cards{
-        display: flex;
-        gap: 2rem;
-        /* flex-wrap: wrap; */
-    }
-
-/* Card end */
 
 .restBar__header .header__small {
   text-transform: uppercase;
@@ -64,6 +56,14 @@
   gap: 2rem;
 }
 
+/* Cards start */
+.test--cards{
+    display: flex;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+}
+
+/* Card end */
 /* Cards end */
 /* Card start */
 .test--card {
@@ -73,14 +73,7 @@
   border-radius: 3px;
   animation: slideLeft 3s 1s infinite;
 }
-@keyframes slideLeft {
-  0% {
-    transform: translateX(-0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 
 /* Cards end */
 /* Card start */
@@ -123,7 +116,7 @@
 .faquoteLeft {
   position: absolute;
   bottom: 0;
-  right: -8px;
+  right: 0px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -140,7 +133,7 @@
 }
 
 .guest--name {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
     .role{
@@ -154,10 +147,19 @@
 }
 
 .quotes {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 1.6rem;
   line-height: 28px;
   text-align: left;
   margin-bottom: 3rem;
 }
 /* Profile end */
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
