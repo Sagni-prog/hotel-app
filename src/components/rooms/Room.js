@@ -1,6 +1,7 @@
-import React from 'react'
-import './room.css'
-import images from '../../constants/images'
+
+import React from "react";
+import "./room.css";
+import images from "../../constants/images";
 
 const Room = () => {
   const { room_1 } = images;
@@ -59,6 +60,5 @@ const Room = () => {
     
   )
 }
-
 
 export default Room;
