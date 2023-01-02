@@ -3,8 +3,9 @@ import Card from './Card'
 
 function Cards() {
   return (
-    <div>
+    <div className='test--cards'>
 
+      <Card />
       <Card />
       <Card />
       <Card />
