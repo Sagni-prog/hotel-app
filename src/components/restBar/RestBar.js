@@ -1,19 +1,12 @@
 import { React, useState } from "react";
 import "./restBar.css";
 import images from "../../constants/images";
+import Header from "./resHeader";
 
 const { blackLable, burger, restBar, cake } = images;
 
 const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-const Header = (props) => {
-  return (
-    <div className="header restBar__header">
-      <h4 className="header__small">resto & bar </h4>
-      <h2 className="header__large">restuarant & bars </h2>
-    </div>
-  );
-};
 const RestCard = (props) => {
   return (
     <div
@@ -87,11 +80,13 @@ const Content = (props) => {
             ? foods.map((num, index) => (
                 <RestCard
                   index={index}
+                  key={index}
                   choosed={props.choosed}
                 />
               ))
             : foods.map((num, index) => (
                 <BarCard
+                  key={index}
                   index={index}
                   choosed={props.choosed}
                 />
@@ -112,7 +107,10 @@ export default () => {
   };
   return (
     <div className="restBar">
-      <Header />
+      <Header
+        headerMain="rest & bars "
+        headerSub="Restuarant & Bars"
+      />
       <Content
         slide={slide}
         buttonClicked={buttonClicked}
