@@ -1,8 +1,13 @@
 import React from 'react'
+import Profile from './Profile'
+import Quotes from './Quotes'
 
 function Card() {
   return (
-    <div>Card</div>
+    <div>
+      <Profile />
+      <Quotes />
+    </div>
   )
 }
 
