@@ -4,30 +4,6 @@
 /* GENERAL */
 /**************************/
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-html {
-  font-size: 62.5%;
-  font-family: "Raleway", "Serif";
-}
-a {
-  text-decoration: none;
-  font-style: "PT Serif";
-  color: #fff;
-}
-nav {
-  list-style: none;
-}
-ul {
-  list-style: none;
-  font-family: "PT Serif";
-  font-size: 2rem;
-  font-weight: 400;
-}
-
 /**************************/
 /* DESKTOP  */
 /**************************/
@@ -36,13 +12,7 @@ ul {
 .hero__hero-container {
   width: 100%;
   height: 100vh;
-  /* background-image: linear-gradient(
-      rgba(34, 34, 34, 0.6),
-      rgba(34, 34, 34, 0.6)
-    ),
-    url("vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg"); */
-  /* background-color: #cccccc; */
-  /* background-color: linear-gradient(to right, red, blue); */
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
