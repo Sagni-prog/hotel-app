@@ -8,11 +8,10 @@ import Footer from "./components/footer/Footer";
 import Testimonial from "./components/testimonial/Testimonial";
 import Contact from "./components/contact/Contact";
 
-<<<<<<< HEAD
+
 /////
 
-=======
->>>>>>> a78bc41c72e8f3aa27c64e2c85c53b0340eea4fa
+
 function App() {
   return (
     <div className="App">
