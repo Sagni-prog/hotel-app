@@ -30,6 +30,8 @@
 .restBar__header {
 }
 
+/* Card end */
+
 .restBar__header .header__small {
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -73,7 +75,18 @@
   }
 }
 
+/* Cards end */
+/* Card start */
+.test--card {
+  width: 400px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
 /* Card end */
+
+/* Profile start */
 
 /* Profile start */
 
@@ -127,7 +140,6 @@
   font-size: 16px;
   color: #c5a880;
 }
-
 .quotes {
   margin-top: 2rem;
   font-size: 1.6rem;
