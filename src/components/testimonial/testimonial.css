@@ -54,7 +54,7 @@
     .test--cards{
         display: flex;
         gap: 2rem;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
 
     /* Cards end */
@@ -122,6 +122,7 @@
     .role{
         font-size: 16px;
         color: #c5a880;
+        text-transform: uppercase;
     }
 
     .quotes{
