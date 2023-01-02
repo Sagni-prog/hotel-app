@@ -2,7 +2,7 @@
   padding: 5% 0px;
   margin: 3% 1%;
   width: 100%;
-  background-color: #f8fafc;
+  background-color: #f1f5f9;
   text-align: center;
 }
 .restBar__header {
@@ -28,7 +28,6 @@
   display: flex;
   padding-left: 10%;
   gap: 10px;
-  margin-top: -10px;
   margin-bottom: 20px;
 }
 .link,
@@ -59,9 +58,7 @@
 .restBar__main .main__left {
   flex-basis: 35%;
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: auto;
 }
 .restBar__main .main__left img {
   position: absolute;
@@ -75,6 +72,7 @@
   flex-basis: 60%;
   display: flex;
   flex-flow: column;
+  justify-content: center;
 }
 
 .main__right .main__right__content {
@@ -83,7 +81,6 @@
   justify-content: center;
   gap: 10px;
   overflow-y: hidden;
-  border: solid thin rgba(255, 0, 0, 0.327);
   padding: 10px;
   border-radius: 2px;
 }
@@ -113,6 +110,7 @@
   height: 100%;
   border-radius: 50%;
   transform: translate(-50%);
+  object-fit: cover;
 }
 
 .restBar__card .card__content {

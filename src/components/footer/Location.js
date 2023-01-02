@@ -7,21 +7,23 @@ export default function Location() {
   
   return <div className="location">
     <h1>Have a Question?</h1>
+    <div className="location--children">
     <p>
-      <FaMap />
-      203 Fake St. Mountain View, San Francisco, California, USA
+      <FaMap className="icons famap" />
+      <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
 
     </p>
 
     <p>
-      <FaPhone />
+      <FaPhone className="icons" />
      +25197837834743
       
     </p>
 
     <p>
-      <FaLocationArrow />
-      info@yourdomain.com
+      <FaLocationArrow className="icons" />
+      <a href="mailto:lorem@gmail.com" target='_blank'>lorem@gmail.com</a>
     </p>
+    </div>
   </div>;
 }

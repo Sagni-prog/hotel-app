@@ -84,6 +84,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # Optional
 - Notify button (Modal)
 
+# Project file structure
+/src
+   /assets
+       /images
+       /videos
+   /constants
+   /componets
 
 
 >>>>>>> 0e44c569d6b0818b2715e752b957220eb45e8fbc

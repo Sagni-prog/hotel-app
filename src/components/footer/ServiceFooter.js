@@ -5,7 +5,8 @@ import AmenitiesTwo from './AmenitiesTwo'
 const data = {
     header: "Services",
     amenties : {
-        data1 :['Free Wifi', 'Easy Booking', 'Restaurant', 'Swimming Pool']
+        data1 :['Free Wifi', 'Easy Booking', 'Restaurant', 'Swimming Pool'],
+        data2: ['Beauty & Health', '60 Flatsceen TV', 'Cold Air Condition', 'Help & Support']
     }
 }
 
@@ -18,7 +19,7 @@ function ServiceFooter() {
         <h1>Services</h1>
         <div className='amenities--container'>
         <AmenitiesOne dataOne= {data.amenties.data1} />
-        <AmenitiesTwo dataTwo ={data.amenties.data1}  />
+        <AmenitiesTwo dataTwo ={data.amenties.data2}  />
         </div>
         
     </div>
