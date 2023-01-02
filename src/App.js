@@ -7,6 +7,7 @@ import Room from "./components/rooms/Room";
 import Footer from "./components/footer/Footer";
 import Testimonial from "./components/testimonial/Testimonial";
 import Contact from "./components/contact/Contact";
+// import Singleroom from "./components/rooms/Singleroom"; 
 
 
 /////
@@ -23,6 +24,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+    
     </div>
   );
 }
