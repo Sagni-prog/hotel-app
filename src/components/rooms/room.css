@@ -1,10 +1,173 @@
-.room__color{
+/* .room__color{
     color: #eca408e8;
     background-color: rgb(46, 44, 44);
-    padding: 20px;
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .room__font{
     font-family: sans-serif;
     font-size: 32px;
+} */
+.room__container{
+    /* font-family: Relway sans-serif; */
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+.room_container_bg{
+    background: #f8f8f8 !important;
+}
+.container{   
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.room_header{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+
+}
+.room_heading_section .subheading {
+    font-size: 13px;
+  display: block;
+  margin-bottom: 5px;
+  color: #c5a880;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 2px
+}
+.room_heading_section h2, .room_heading_section .h2 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-top:.5rem !important;
+ }
+.room_heading_section h2 span, .room_heading_section .h2 span {
+font-weight: 400; }
+@media (max-width: 575.98px) {
+.room_heading_section h2, .room_heading_section .h2 {
+font-size: 38px; } }
+.rooms_card_container{
+
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+gap: 5rem;
+padding: 10px 40px;
+
+}
+.room-wrap {
+    object-fit: fill;
+background: #fff;
+width: 50%;
+height: 477px;
+margin-bottom: 60px;
+-webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
+-moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
+box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
+ }
+@media (max-width: 575.98px) {
+.room-wrap {
+margin-bottom: 40px; } }
+.room-wrap img {
+display: block;
+object-fit: fill;
+height: 325px;
+position: relative;
+z-index: 0; }
+.room-wrap img .img-room:after {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+content: '';
+opacity: 0;
+background: #222222;
+z-index: -1;
+ }
+.room-wrap .text {
+ text-align: center;
+  height: 150px;
+}
+ .text a{
+    text-decoration: none;
+ }
+.room-wrap .text h3, .room-wrap .text .h3 .mb-0 .mt-2{
+font-size: 30px;
+margin-bottom: 15px; }
+
+.room-wrap .text h3 a, .room-wrap .text .h3 a {
+    color: #000000;
+    font-weight: 400; }
+.room-wrap .text ul {
+margin-top: -25px;
+border-radius: 4px;
+padding: 10px 0;
+background: #fff;
+-webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+-moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06); }
+.room-wrap .text ul li {
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+    list-style: none; }
+    .room-wrap .text ul li span {
+    margin-right: 5px; }
+.room-wrap .text .price {
+color: #c5a880;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700; }
+.room-wrap .text .price small, .room-wrap .text .price .small {
+    font-size: 14px; }
+.btn-custom {
+color: #000000;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: 700;
+margin-left: 2px;
+
+border: 1px solid rgba(0, 0, 0, 0.05);
+padding: 5px 10px;
+border-radius: 2px; }
+.room-wrap:hover {
+-webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.08);
+-moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.08);
+box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.08); }
+.room-wrap:hover .text {
+background: #222222;
+color: rgba(255, 255, 255, 0.7); }
+.room-wrap:hover .text h3 a, .room-wrap:hover .text .h3 a {
+color: #fff; }
+.room-wrap:hover .btn-custom {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.1); }
+.room-wrap:hover .img:after {
+opacity: .5; }
+
+.room-card-paragragh{
+    margin-bottom:10px ;
+    font-size: 13px;
+}
+.text .mb-0 .mt-2{
+    display: flex;
+    gap: 5rem;
 }
