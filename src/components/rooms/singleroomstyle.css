@@ -1,0 +1,28 @@
+.room__container{
+    /* font-family: Relway sans-serif; */
+    padding: 8em 0;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+.room_container_bg{
+    background: #f8f8f8 !important;
+}
+.container{   
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+.room_right{
+    width: 50%;
+    background-color: aqua;
+    height: 100%;
+}
+.room_left{
+    width: 50%;
+    background-color: rgb(29, 31, 31);
+    height: 100%;
+}
