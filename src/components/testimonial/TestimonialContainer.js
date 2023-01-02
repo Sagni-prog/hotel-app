@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from './Header'
+import Cards from './Cards'
 
 function TestimonialContainer() {
   return (
     <div className='test--container'>
-       <Header />
-
+       {/* <Header /> */}
+       <Cards />
     </div>
   )
 }
