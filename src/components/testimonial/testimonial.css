@@ -11,6 +11,15 @@
   font-size: 32px;
 }
 
+.testimonial--head--section{
+  margin-bottom: 3.5rem;
+  margin-top: 2rem;
+}
+.testimonial--header{
+  font-size: 64px !important;
+  font-weight: 700;
+  font-family: "Old Standard TT", Arial, sans-serif
+}
 /* Testimonial container */
 .test--container {
   display: flex;
@@ -51,15 +60,17 @@
 
 /* Cards start */
 .test--cards {
+  margin-top: 1rem;
   display: flex;
   overflow-x: hidden;
   gap: 2rem;
+  width: 80%;
 }
 
 /* Cards start */
 .test--cards{
     display: flex;
-    gap: 2rem;
+    gap: 3.5rem;
     /* flex-wrap: wrap; */
 }
 
