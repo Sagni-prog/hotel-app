@@ -602,6 +602,26 @@ grid-column: 4/7;
   grid-gap: 2rem;
 }
 
+@media screen and (max-width: 991px) {
+    html{
+      font-size: 9px;
+    }
+}
+
+/* @media screen and (max-width: 843px) {
+    html{
+      font-size: 8px;
+    }
+} */
+@media screen and (max-width: 771px) {
+    html{
+      font-size: 8px;
+    }
+  .grid-col-3{
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 
