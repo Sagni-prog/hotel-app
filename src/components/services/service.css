@@ -58,3 +58,9 @@
 /* .service__border{
     border: #898989 solid 1px;
 } */
+
+@media screen and (max-width: 771px) {
+    .service__grid__col__3{
+        grid-template-columns: 1fr;
+    }
+}
