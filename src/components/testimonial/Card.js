@@ -4,11 +4,13 @@ import Quotes from './Quotes'
 
 function Card() {
   return (
-    <div>
+    <div className='test--card'>
       <Profile />
       <Quotes />
     </div>
   )
 }
+
+
 
 export default Card
