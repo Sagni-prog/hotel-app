@@ -52,7 +52,6 @@
 /* Cards start */
 .test--cards {
   display: flex;
-  background-color: red;
   overflow-x: hidden;
   gap: 2rem;
 }
@@ -64,7 +63,7 @@
   background-color: #fff;
   padding: 1rem;
   border-radius: 3px;
-  animation: slideLeft 3s 1s ease-out infinite;
+  animation: slideLeft 3s 1s infinite;
 }
 @keyframes slideLeft {
   0% {
