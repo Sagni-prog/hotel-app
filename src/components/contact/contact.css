@@ -1,10 +1,20 @@
-.contact__color{
-    color: #eca408e8;
-    background-color: rgb(46, 44, 44);
-    padding: 20px;
+.contact__color {
+  color: #eca408e8;
+  background-color: rgb(46, 44, 44);
+  padding: 20px;
 }
 
-.contact__font{
-    font-family: sans-serif;
-    font-size: 32px;
+.contact__font {
+  font-family: sans-serif;
+  font-size: 32px;
+}
+.contact__Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact__infoDetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
