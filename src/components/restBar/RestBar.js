@@ -108,7 +108,7 @@ export default () => {
   return (
     <div className="restBar py-5">
       <Header
-        headerMain="rest & bars "
+        headerMain="resto & bars "
         headerSub="Restuarant & Bars"
       />
       <Content

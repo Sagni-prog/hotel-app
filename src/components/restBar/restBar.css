@@ -22,11 +22,13 @@ html {
   border: none;
 }
 .restBar__menus .link {
+  font-size: 1.6rem;
+  font-weight: 100;
   text-decoration: none;
   text-transform: capitalize;
   color: #c5a880;
   background-color: transparent;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   padding: 0rem 1rem 0.5rem;
 }
 
