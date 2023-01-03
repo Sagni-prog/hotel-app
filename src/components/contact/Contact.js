@@ -41,17 +41,17 @@ const Contact = () => {
             <div className="contact__input">
               <input type="text" name="" id="" placeholder="Subject" />
             </div>
-            <div>
+            <div className="contact__textarea">
               <textarea
                 name=""
                 id=""
-                cols="30"
+                cols="60"
                 rows="10"
                 placeholder="Create a message here"
               ></textarea>
             </div>
-            <div>
-              <button>send message</button>
+            <div className="contact__btn">
+              <button>SEND</button>
             </div>
           </div>
         </div>

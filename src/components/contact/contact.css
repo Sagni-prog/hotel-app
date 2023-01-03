@@ -50,7 +50,24 @@
   margin-bottom: 20px;
 }
 .contact__input input {
-  width: 400px;
+  width: 500px;
   height: 10px;
   padding: 20px;
+
+  /* border-radius: 10px; */
+}
+.contact__textarea {
+  margin-bottom: 20px;
+}
+.contact__textarea textarea {
+  padding: 20px;
+  /* border-radius: 10px; */
+}
+.contact__btn button {
+  width: 150px;
+  padding: 10px;
+  background-color: #eca408e8;
+  color: white;
+  border: solid 1px #eca408e8;
+  font-weight: 600;
 }
