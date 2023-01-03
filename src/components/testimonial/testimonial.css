@@ -11,6 +11,15 @@
   font-size: 32px;
 }
 
+.testimonial--head--section {
+  margin-bottom: 3.5rem;
+  margin-top: 2rem;
+}
+.testimonial--header {
+  font-size: 64px !important;
+  font-weight: 700;
+  font-family: "Old Standard TT", Arial, sans-serif;
+}
 /* Testimonial container */
 .test--container {
   display: flex;
@@ -22,8 +31,6 @@
 
 .restBar__header {
 }
-
-/* Card end */
 
 .restBar__header .header__small {
   text-transform: uppercase;
@@ -44,11 +51,21 @@
 
 /* Cards start */
 .test--cards {
+  margin-top: 1rem;
   display: flex;
   overflow-x: hidden;
   gap: 2rem;
+  width: 80%;
 }
 
+/* Cards start */
+.test--cards {
+  display: flex;
+  gap: 3.5rem;
+  /* flex-wrap: wrap; */
+}
+
+/* Card end */
 /* Cards end */
 /* Card start */
 .test--card {
@@ -58,6 +75,7 @@
   border-radius: 3px;
   animation: slideLeft 3s 1s infinite;
 }
+
 @keyframes slideLeft {
   0% {
     transform: translateX(100%);
@@ -91,7 +109,7 @@
   /* flex-direction: column; */
   gap: 2rem;
   /* background-color: aqua; */
-  /* padding: 1.5rem; */
+  padding: 1.5rem;
 }
 
 .guest--profile {
@@ -108,7 +126,7 @@
 .faquoteLeft {
   position: absolute;
   bottom: 0;
-  right: -8px;
+  right: 0px;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -125,15 +143,21 @@
 }
 
 .guest--name {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 .role {
   font-size: 16px;
   color: #c5a880;
+  text-transform: uppercase;
 }
+.role {
+  font-size: 16px;
+  color: #c5a880;
+}
+
 .quotes {
-  margin-top: 2rem;
+  margin-top: 1rem;
   font-size: 1.6rem;
   line-height: 28px;
   text-align: left;

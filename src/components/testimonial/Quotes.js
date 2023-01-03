@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Quotes() {
+function Quotes({comment}) {
   return (
     <div className='quotes'>
-        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+      <p>{comment}</p>
+        {/* <p>I can't tell you how much we enjoyed being your guest these last few.</p> */}
     </div>
   )
 }
