@@ -83,9 +83,7 @@ margin-bottom: 60px;
 -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
 box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.04);
  }
-@media (max-width: 575.98px) {
-.room-wrap {
-margin-bottom: 40px; } }
+
 .room-wrap img {
      border-radius: 5px;
 display: block;
@@ -121,21 +119,7 @@ margin-bottom: 15px; }
 .room-wrap .text h3 a, .room-wrap .text .h3 a {
     color: #000000;
     font-weight: 400; }
-.room-wrap .text ul {
-margin-top: -25px;
-border-radius: 4px;
-padding: 10px 0;
-background: #fff;
--webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
--moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06); }
-.room-wrap .text ul li {
-    font-size: 16px;
-    margin-right: 10px;
-    display: inline-block;
-    list-style: none; }
-    .room-wrap .text ul li span {
-    margin-right: 5px; }
+
 .room-wrap .text .price {
 color: #c5a880;
 text-transform: uppercase;
@@ -153,6 +137,9 @@ margin-left: 2px;
 border: 1px solid rgba(0, 0, 0, 0.05);
 padding: 5px 10px;
 border-radius: 2px; }
+.room-wrap:hover .img{
+    background:linear-gradient(right to left rgba(0, 0, 0, 0.08) );
+}
 .room-wrap:hover {
 -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.08);
 -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.08);
@@ -176,4 +163,56 @@ opacity: .5; }
 .text .mb-0 .mt-2{
     display: flex;
     gap: 5rem;
+}
+
+@media (max-width: 1250px){
+    .room_header{
+        font-size: 20px;
+    }
+    .rooms_card_container{
+        display: flex;
+        flex-flow: row wrap; 
+        width: 100%;
+    }
+    .room-wrap {
+        margin-bottom: 40px;
+    width: 45%;
+align-self: center; }
+    .room-wrap .text .price small, .room-wrap .text .price .small {
+        font-size: 8px; }
+}
+
+@media screen and (max-width: 600px){
+    .room_header{
+        font-size: 20px;
+    }
+    .rooms_card_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .room-wrap {
+        margin-bottom: 40px;
+    width: 100%;
+align-self: center; }
+    .room-wrap .text .price small, .room-wrap .text .price .small {
+        font-size: 10px; }
+}
+
+@media screen and (max-width: 360px){
+    .room_header{
+        font-size: 20px;
+    }
+    .rooms_card_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .room-wrap {
+        margin-bottom: 40px;
+    width: 100%;
+align-self: center; }
+    .room-wrap .text .price small, .room-wrap .text .price .small {
+        font-size: 10px; }
+
 }
