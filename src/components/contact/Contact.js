@@ -29,13 +29,16 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact__form">
-            <div>
+            <div className="send__message">
+              <p>Send A message</p>
+            </div>
+            <div className="contact__input">
               <input type="text" name="" id="" placeholder="Name" />
             </div>
-            <div>
+            <div className="contact__input">
               <input type="text" name="" id="" placeholder="Email" />
             </div>
-            <div>
+            <div className="contact__input">
               <input type="text" name="" id="" placeholder="Subject" />
             </div>
             <div>

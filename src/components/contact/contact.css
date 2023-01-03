@@ -42,3 +42,15 @@
 .details p {
   font-size: 13px;
 }
+.send__message {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact__input {
+  margin-bottom: 20px;
+}
+.contact__input input {
+  width: 400px;
+  height: 10px;
+  padding: 20px;
+}
