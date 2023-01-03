@@ -20,13 +20,6 @@
 }
 /* End of Testimonial container */
 
-.restBar {
-  padding: 5% 0px;
-  margin: 3% 1%;
-  width: 100%;
-  background-color: #f1f5f9;
-  text-align: center;
-}
 .restBar__header {
 }
 
@@ -67,10 +60,10 @@
 }
 @keyframes slideLeft {
   0% {
-    transform: translateX(-0%);
+    transform: translateX(100%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(0%);
   }
 }
 
