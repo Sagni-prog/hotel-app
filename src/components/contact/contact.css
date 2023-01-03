@@ -12,9 +12,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 .contact__infoDetails {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.contact__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact__dis {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.contact__form {
+  display: block;
+}
+.contact__map {
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.details h3 {
+  font-size: 15px;
+}
+.details p {
+  font-size: 13px;
 }
