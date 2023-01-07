@@ -1,7 +1,7 @@
 import React from "react";
 import "./room.css";
 import images from "../../constants/images";
-
+// import Temp from "./temp";
 const Room = () => {
   const { room_1 } = images;
   return (
@@ -11,6 +11,7 @@ const Room = () => {
           <div className="room_heading_section">
              <span className="subheading">Our Rooms</span>
              <h2>Featured Rooms</h2>
+             {/* <Temp /> */}
           </div>
       </div>
     </div>
