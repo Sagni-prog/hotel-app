@@ -1,19 +1,21 @@
 .restBar__header {
+  margin-bottom: 6.4rem;
 }
 
-.restBar__header .header__small {
+.restBar .restBar__header .header__small {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5em;
   color: #c5a880;
 }
 
-.restBar__header .header__large {
+.restBar .restBar__header .header__large {
   text-transform: capitalize;
   letter-spacing: 2px;
   font-family: "Old Standard TT", serif;
-  font-size: 44px;
+  font-size: 64px;
   line-height: 1.5em;
   font-weight: 400;
 }

@@ -1,50 +1,177 @@
-.testimonial__color{
-    /* color: #eca408e8; */
-    /* background-color: rgb(46, 44, 44); */
-    background-color: #f1f5f9;
-    padding: 20px;
-    text-align: center;
+/* 
+    Author: Robera Insarmu
+    Github: https://github.com/rinsarmu
+    Skills: HTML, CSS, JS, React, Java, C++, 
+    Committed area: Testimonials, Footer
+    Academical status: ungraduated Software Engineering
+    Year: Dec 31, 2022
+    Location, Jimma, Ethiopia
 
+*/
+
+.testimonial__color {
+  /* color: #eca408e8; */
+  /* background-color: rgb(46, 44, 44); */
+  background-color: #f1f5f9;
+  padding: 20px;
+  text-align: center;
 }
 
-.testimonial__font{
-    font-family: sans-serif;
-    font-size: 32px;
+.testimonial__font {
+  font-family: sans-serif;
+  font-size: 32px;
 }
 
-
-    /* Testimonial container */
-.test--container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.testimonial--head--section {
+  margin-bottom: 3.5rem;
+  margin-top: 2rem;
 }
-    /* End of Testimonial container */
+.testimonial--header {
+  font-size: 64px !important;
+  font-weight: 700;
+  font-family: "Old Standard TT", Arial, sans-serif;
+}
+/* Testimonial container */
+.test--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", Arial, sans-serif;
+}
+/* End of Testimonial container */
 
+.restBar__header {
+}
 
-.restBar {
-    padding: 5% 0px;
-    margin: 3% 1%;
-    width: 100%;
-    background-color: #f1f5f9;
-    text-align: center;
+.restBar__header .header__small {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #c5a880;
+}
+
+.restBar__header .header__large {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "Old Standard TT", serif;
+  font-size: 44px;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+/* Cards start */
+.test--cards {
+  margin-top: 1rem;
+  display: flex;
+  overflow-x: hidden;
+  gap: 2rem;
+  width: 80%;
+}
+
+/* Cards start */
+.test--cards {
+  display: flex;
+  gap: 3.5rem;
+  /* flex-wrap: wrap; */
+}
+
+/* Card end */
+/* Cards end */
+/* Card start */
+.test--card {
+  flex-basis: 30%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+  animation: slideLeft 3s 1s infinite;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
   }
-  .restBar__header {
+  100% {
+    transform: translateX(0%);
   }
-  
-  .restBar__header .header__small {
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    line-height: 1.5em;
-    color: #c5a880;
-  }
-  
-  .restBar__header .header__large {
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    font-family: "Old Standard TT", serif;
-    font-size: 44px;
-    line-height: 1.5em;
-    font-weight: 400;
-  }
+}
+
+/* Cards end */
+/* Card start */
+.test--card {
+  width: 400px;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+/* Card end */
+
+/* Profile start */
+
+/* Profile start */
+
+.test--profile,
+.quotes {
+  display: flex;
+  width: 290px;
+  margin: 10px auto;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 2rem;
+  /* background-color: aqua; */
+  padding: 1.5rem;
+}
+
+.guest--profile {
+  width: 80px;
+  position: relative;
+  /* background-color: #c5a880; */
+}
+
+.profile--picture {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.faquoteLeft {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #c5a880;
+  color: #f1f5f9;
+  padding: 8px;
+  font-size: 1.6rem;
+}
+
+.guest--info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.guest--name {
+  font-size: 2rem;
+}
+
+.role {
+  font-size: 16px;
+  color: #c5a880;
+  text-transform: uppercase;
+}
+.role {
+  font-size: 16px;
+  color: #c5a880;
+}
+
+.quotes {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+/* Profile end */
