@@ -106,9 +106,11 @@ export default () => {
     setChoosed(true);
   };
   return (
+
     <div className="restBar py-5">
       <Header
         headerMain="resto & bars "
+
         headerSub="Restuarant & Bars"
       />
       <Content

@@ -16,6 +16,7 @@ const Room = () => {
       </div>
     </div>
     <div className='rooms_card_container'>
+
     <div className="room-wrap">
             <div className="text p-5 text-center">
               <h3><a href="#">Suite Room</a></h3>
@@ -28,8 +29,10 @@ const Room = () => {
         alt=""
       />
               </a>
+
           </div>
           <div className="room-wrap">
+
            <a href="#" className="img img-room">
            <img
         src={room_1}
@@ -42,7 +45,8 @@ const Room = () => {
                 <p className="mb-0 mt-2"><span className="me-3 price">$450 <small>/ night</small></span><a href="#" className="btn-custom">Book Now</a></p>
              </div>
           </div>
-        <div className="room-wrap">
+        
+          <div className="room-wrap">
             <div className="text p-5 text-center">
               <h3><a href="#">Suite Room</a></h3>
                 <p className="room-card-paragragh">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -54,6 +58,7 @@ const Room = () => {
         alt=""
       />
               </a>
+
           </div>
          
        

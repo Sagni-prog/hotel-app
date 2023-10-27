@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Quotes({comment}) {
   return (
     <div className='quotes'>

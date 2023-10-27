@@ -1,12 +1,15 @@
 .restBar__header {
-  margin-bottom: 6.4rem;
+
 }
+
+
 
 .restBar .restBar__header .header__small {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 16px;
   font-weight: 500;
+
   line-height: 1.5em;
   color: #c5a880;
 }
