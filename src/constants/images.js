@@ -5,4 +5,5 @@ import drink from "../assets/images/drink.jpg";
 import pizza from "../assets/images/pizza.jpg";
 import restBar from "../assets/images/restBar.jpg";
 import room_1 from "../assets/images/room_1.jpg";
-export default { blackLable, burger, cake, drink, pizza, restBar, room_1 };
+import profile from '../assets/images/rob--profile.jpg';
+export default { blackLable, burger, cake, drink, pizza, restBar, room_1, profile };

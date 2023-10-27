@@ -2,13 +2,19 @@ import React from 'react'
 import Profile from './Profile'
 import Quotes from './Quotes'
 
-function Card() {
+
+function Card(props) {
+  console.log(props.role);
   return (
-    <div>
-      <Profile />
-      <Quotes />
+    <div className='test--card'>
+      <Profile guestName = {props.guestName} role= {props.role}  />
+      <Quotes comment = {props.comment} />
+
     </div>
   )
 }
+
+
+
 
 export default Card

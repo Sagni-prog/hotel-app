@@ -9,6 +9,8 @@ import Testimonial from "./components/testimonial/Testimonial";
 import Contact from "./components/contact/Contact";
 
 
+
+
 /////
 
 
@@ -23,6 +25,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+    
     </div>
   );
 }

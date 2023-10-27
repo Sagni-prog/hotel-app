@@ -1,7 +1,7 @@
 import React from "react";
 import "./room.css";
 import images from "../../constants/images";
-
+// import Temp from "./temp";
 const Room = () => {
   const { room_1 } = images;
   return (
@@ -11,11 +11,13 @@ const Room = () => {
           <div className="room_heading_section">
              <span className="subheading">Our Rooms</span>
              <h2>Featured Rooms</h2>
+             {/* <Temp /> */}
           </div>
       </div>
     </div>
     <div className='rooms_card_container'>
-       <div className="room-wrap">
+
+    <div className="room-wrap">
             <div className="text p-5 text-center">
               <h3><a href="#">Suite Room</a></h3>
                 <p className="room-card-paragragh">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -27,8 +29,10 @@ const Room = () => {
         alt=""
       />
               </a>
-          </div>  
-           <div className="room-wrap">
+
+          </div>
+          <div className="room-wrap">
+
            <a href="#" className="img img-room">
            <img
         src={room_1}
@@ -54,7 +58,9 @@ const Room = () => {
         alt=""
       />
               </a>
-          </div> 
+
+          </div>
+         
        
 
     </div>

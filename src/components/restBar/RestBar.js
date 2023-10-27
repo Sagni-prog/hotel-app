@@ -5,7 +5,7 @@ import Header from "./resHeader";
 
 const { blackLable, burger, restBar, cake } = images;
 
-const foods = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+const foods = [0, 1, 2, 3, 4, 5, 6, 7];
 
 const RestCard = (props) => {
   return (
@@ -106,9 +106,11 @@ export default () => {
     setChoosed(true);
   };
   return (
-    <div className="restBar">
+
+    <div className="restBar py-5">
       <Header
-        headerMain="rest & bars "
+        headerMain="resto & bars "
+
         headerSub="Restuarant & Bars"
       />
       <Content

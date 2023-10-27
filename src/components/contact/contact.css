@@ -1,10 +1,73 @@
-.contact__color{
-    color: #eca408e8;
-    background-color: rgb(46, 44, 44);
-    padding: 20px;
+.contact__color {
+  color: #eca408e8;
+  background-color: rgb(46, 44, 44);
+  padding: 20px;
 }
 
-.contact__font{
-    font-family: sans-serif;
-    font-size: 32px;
+.contact__font {
+  font-family: sans-serif;
+  font-size: 32px;
+}
+.contact__Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.contact__infoDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.contact__title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.contact__dis {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.contact__form {
+  display: block;
+}
+.contact__map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.details h3 {
+  font-size: 15px;
+}
+.details p {
+  font-size: 13px;
+}
+.send__message {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact__input {
+  margin-bottom: 20px;
+}
+.contact__input input {
+  width: 500px;
+  height: 10px;
+  padding: 20px;
+
+  /* border-radius: 10px; */
+}
+.contact__textarea {
+  margin-bottom: 20px;
+}
+.contact__textarea textarea {
+  padding: 20px;
+  /* border-radius: 10px; */
+}
+.contact__btn button {
+  width: 150px;
+  padding: 10px;
+  background-color: #eca408e8;
+  color: white;
+  border: solid 1px #eca408e8;
+  font-weight: 600;
 }
