@@ -1,8 +1,11 @@
 import React from 'react'
 
-function Quotes() {
+function Quotes({comment}) {
   return (
-    <div>Quotes</div>
+    <div className='quotes'>
+      <p>{comment}</p>
+        {/* <p>I can't tell you how much we enjoyed being your guest these last few.</p> */}
+    </div>
   )
 }
 
